@@ -1,0 +1,71 @@
+body {
+	background: #caced1;}
+
+
+h1 { font-family:Georgia;    font-size: 130%;		font-weight: normal;		color: #FFFFFF;        text-align: center;}
+h2 { font-size: 160%;	color: #88ac0b;	font-weight: normal;}
+h3 { font-size: 135%;	 color: hsl(149, 66%, 85%);        text-align: center;}
+
+#fondo {
+	width:1150px;
+	background-color: #d8efe7;
+	margin: 0 auto;
+	text-align: left;
+}
+
+
+#abajo, #arriba {
+	background-color: #cefcec;
+	clear: both;	
+	height: 57px;
+	text-align: center;	
+	font-size: 90%;	
+}
+#abajo p,#arriba h1 { 
+	padding: 10px 0;
+	margin: 0;
+	color: #01390b;
+}
+img{
+	height: 600px;
+	transition-delay: 2s;
+  	border: 2px solid #197acf;
+  	border-image-width: 1;
+ 	border-image-slice: 23%;
+  	border-image-repeat: round;
+}
+
+
+#content-fondo {
+	clear: both;
+	width: 1090px;	
+	margin: 5px;
+	padding: 10;
+}
+
+
+#contenido{
+	float: left;
+	width: 700px;
+	margin: 10px; padding: 10px; 
+	display: inline;	
+	border: 1px solid green;	
+}
+
+#lateral {
+	float: right;
+	width: 300px;
+	padding: 0; margin: 10px 0 0 0;	
+}	
+#lateral input {
+		color: #555;	
+}
+#lateral{
+	text-align: center;
+	transition-delay: 2s;
+}
+
+.color__text h1, h3{
+	color: black;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            color-scheme: light dark;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .boletin{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Consulta de boletines</h1>
+    <div class="boletin">
+        <p>Para conocer su boletin, introduzca su cédula</p>
+        <form action="consulta.php" method="post" >
+            <label for="boletin">Cédula: </label>
+            <input type="text" name="cedula" placeholder="Cédula del estudiante" required>
+            <button type="submit">Consultar</button>
+        </form>
+    </div>
+</body>
+</html>
+
+

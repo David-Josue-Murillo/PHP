@@ -1,0 +1,13 @@
+Colegio: C.E.B.G. JOSE SANTOS PUGA
+Grupo: 7A
+Estudiante: "ERIKA
+--------------------------------
+
+Matematica: 3.299999952
+Ciencias: 3.299999952
+Geografia: 3.700000048
+Español: 3.299999952
+Historia: 3.299999952
+Civica: 3.299999952
+
+Promedio: 3.6999999683333
