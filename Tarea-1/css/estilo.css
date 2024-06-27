@@ -1,0 +1,98 @@
+body {
+	background: #caced1;}
+
+/* headers */
+h1 { font-family:Georgia;     font-size: 130%;		font-weight: normal;		color: #FFFFFF;        text-align: center;}
+h2 { font-size: 160%;	color: #88ac0b;	font-weight: normal;}
+h3 { font-size: 135%;	 color: #FFFFFF;        text-align: center;}
+
+#foto{left: 90px;
+	   padding: 5px;
+	   margin: 0 0 10px 0;
+	   color: #246088;
+       background: #EDF8FE;
+	   border-top: 1px solid #4A8EBC;
+	   border-bottom: 1px solid #4A8EBC;
+}
+#fondo {
+	width: 790px;
+	background: #CCC url(../img/content.jpg) repeat-y center top;
+	margin: 0 auto;
+	text-align: left;
+        /*border: 1px solid green;*/	
+}
+#content-fondo {
+	clear: both;
+	width: 760px;	
+	margin: 5px;
+	padding: 10;
+	/*border: 1px solid blue;*/
+}
+#header {
+	position: relative;
+	height: 131px;
+	background: #caced1 url(../img/header.gif) no-repeat center top;
+	padding: 0;	
+	color: #fff;	
+}
+
+#subtitulo {
+	float: left;
+	width: 555px;
+	margin: 0; padding: 10px 0 0 0; 
+	display: inline;
+	background: url(../img/box.jpg) no-repeat;	
+}
+#for{margin: 20px; padding: 0 20px 0 0; }
+#contenido {
+	float: left;
+	width: 555px;
+	margin: 0px; padding: 20px 0 0 0; 
+	display: inline;
+	background: url(../img/box.jpg) no-repeat; 	
+}
+
+#subtitulo h2,h1, label {
+	font: normal 150% 'Trebuchet MS', Tahoma, Arial, Sans-serif;
+	padding: 0; 	
+	margin-bottom: 0;		
+	color: #2666c3;
+}
+
+#subtitulo p, #subtitulo h1, #subtitulo h2, #subtitulo h3, .label, #subtitulo input{
+	margin-left: 20px;
+	margin-right: 25px;
+}
+
+/* menú lateral */	
+#menu_lateral {
+	float: right;
+	width: 195px;
+	padding: 0; margin: 10px 0 0 0;	
+	color: #777;	
+}	
+#menu_lateral h2 {
+	margin: 15px 5px 10px 5px;
+	font: bold 1.4em 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #555;	
+}
+#menu_lateral p {
+		color: blue;	
+}
+#menu_lateral input {
+		color: #555;	
+}
+/* abajo */	
+#abajo {
+	color: #C6DDEE;
+	background: #caced1 url(../img/footer.jpg) no-repeat center top;
+	clear: both;
+	width: 790px;
+	height: 57px;
+	text-align: center;	
+	font-size: 90%;	
+}
+#abajo p { 
+	padding: 10px 0;
+	margin: 0;
+}
